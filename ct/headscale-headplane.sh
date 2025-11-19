@@ -54,7 +54,7 @@ description
 
 msg_info "Installing dependencies"
 apt-get update &>/dev/null
-apt-get install -y unzip curl jq ufw &>/dev/null || true
+apt-get install -y unzip curl ufw &>/dev/null || true
 msg_ok "Dependencies installed"
 
 # ------------------------------------------------------
